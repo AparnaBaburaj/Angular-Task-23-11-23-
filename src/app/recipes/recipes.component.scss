@@ -1,0 +1,65 @@
+.bx-product{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+
+}
+.product-fhalf{
+    width: 30%;
+    margin-top: 120px;
+}
+.bx-p{
+   
+    margin-left: 80px;
+    padding-bottom: 100px;
+    font-size: 35px;
+    font-family: monospace;
+}
+.product-shalf{
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.column {
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-left: 2px;
+   
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(33, 25, 25, 0.2);
+    background-color: rgb(68, 62, 62);
+    color: white;
+
+
+  }
+  .container {
+    padding: 0 2px;
+   
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  
+  }
+  
+  .title {
+    color: rgb(180, 167, 167);
+  }
+ 
+
+  img{
+    width: 290px;
+    height: 200px;
+  }
